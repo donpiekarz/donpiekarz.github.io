@@ -3,7 +3,6 @@ published: true
 title: Drugi akt
 layout: post
 ---
-
 Faktyczny drugi akt napiszę niebawem. Teraz jest sprawdzenie czy to coś działa.
 
 
@@ -13,4 +12,4 @@ Faktyczny drugi akt napiszę niebawem. Teraz jest sprawdzenie czy to coś dział
 
 ## bbb
 
-
+### ccc
