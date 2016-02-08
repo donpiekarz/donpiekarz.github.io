@@ -19,4 +19,4 @@ gem 'pygments.rb'
 5. I można już uruchamiać jekylla poleceniem:
 {% highlight bash %}
 bundle exec jekyll serve
-{% endhiglight %}
+{% endhighlight %}
