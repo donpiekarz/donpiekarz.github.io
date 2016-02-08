@@ -6,7 +6,7 @@ email:       your_email@example.com
 author:      DonPiekarz
 description: "tylko sny odró&#380;niaj&#261; nas od maszyn"
 baseurl:     ""
-url:         "http://donpiekarz.github.io"
+url:         "http://donpiekarz.pepiniera.net"
 date_format: "%Y-%m-%d"
 
 # Google services
@@ -61,10 +61,10 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'Nowsze'
+    older: 'Starsze'
   share_buttons:
-    text:         'Share this post!'
+    text:         'Udostępnij post!'
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'
@@ -75,21 +75,21 @@ text:
     stumbleupon:  'Share on StumbleUpon'
     hackernews:   'Share on Hacker News'
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    updated:        'Zaktualizowano'
+    minute_read:    'min czytania'
+    related_posts:  'Powiazane posty'
   index:
-    coming_soon: 'Coming soon...'
+    coming_soon: 'Wkródce...'
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email:    'Email adres'
+    content:  'Co tam?'
+    subject:  'Nowa poczta z bloga!'
+    submit:   'Wyślij'
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+      sending:  'Wysyłam..'
+      sent:     'Wysłano!'
+      error:    'Błąd!'
+  thanks: 'Dzięki za kontakt, odpowiem najszybciej jak to możliwe'
 
 
 # Build settings
