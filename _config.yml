@@ -2,7 +2,7 @@ excerpt_separator: ""
 highlighter: rouge
 # Site settings
 title:       Cierpienia M&#322;odego Kodera
-email:       your_email@example.com
+email:       
 author:      DonPiekarz
 description: "tylko sny odró&#380;niaj&#261; nas od maszyn"
 baseurl:     ""
@@ -79,7 +79,7 @@ text:
     minute_read:    'min czytania'
     related_posts:  'Powiazane posty'
   index:
-    coming_soon: 'Wkródce...'
+    coming_soon: 'Wkrótce...'
   contact:
     email:    'Email adres'
     content:  'Co tam?'
