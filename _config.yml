@@ -1,5 +1,5 @@
 excerpt_separator: ""
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 url: http://donpiekarz.github.io
 title: Cierpienia M&#322;odego Kodera
