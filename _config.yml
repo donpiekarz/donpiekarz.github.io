@@ -1,5 +1,5 @@
 excerpt_separator: ""
-pygments: true
+highlighter: pygments
 markdown: kramdown
 url: http://donpiekarz.github.io
 title: Cierpienia M&#322;odego Kodera
@@ -7,3 +7,4 @@ email: aaa@bbb.com
 author: DonPiekarz
 description: tylko sny odró&#380;niaj&#261; nas od maszyn
 paginate: 10
+gems: [jekyll-paginate]
