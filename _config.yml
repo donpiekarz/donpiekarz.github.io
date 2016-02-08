@@ -7,7 +7,7 @@ author:      DonPiekarz
 description: "tylko sny odró&#380;niaj&#261; nas od maszyn"
 baseurl:     ""
 url:         "http://donpiekarz.github.io"
-date_format: "%Y-%b-%d"
+date_format: "%Y-%m-%d"
 
 # Google services
 google_analytics:
