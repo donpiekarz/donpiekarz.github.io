@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Lista tagów
+layout: page
+title: Tagi
+permalink: /tags/
+tags: tag_list
 ---
 
-<h1>{{ page.title }}</h1>
 {% assign tags_list = site.tags %}
 
 {% if tags_list.first[0] == null %}
@@ -24,7 +25,7 @@ title: Lista tagów
 
 
 {% for tag in site.tags %}
-<h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+<h3 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h3>
 <ul>
   {% assign pages_list = tag[1] %}
 
