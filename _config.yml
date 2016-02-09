@@ -10,7 +10,7 @@ url:         "http://donpiekarz.pepiniera.net"
 date_format: "%Y-%m-%d"
 
 # Google services
-google_analytics:
+google_analytics: UA-73550761-1
 google_verification:
 
 # Optional features
