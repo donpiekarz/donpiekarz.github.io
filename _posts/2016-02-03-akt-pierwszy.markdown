@@ -3,7 +3,6 @@ published: true
 title: Akt pierwszy
 layout: post
 tags: [dajsiepoznac]
-categories: [dajsiepoznac]
 ---
 Od ostatniego bloga minelo sporo czasu - chwila na zadume...
 

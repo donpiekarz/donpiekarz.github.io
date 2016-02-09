@@ -2,6 +2,7 @@
 published: true
 title: Github pages i Debian 8
 layout: post
+tags: debian linux jekyll instalacja
 ---
 Jak każdy pewnie się spodziewa, [instrukcja odpalenia](https://help.github.com/articles/using-jekyll-with-pages) github pages na Debianie osiem nie działa.
 
