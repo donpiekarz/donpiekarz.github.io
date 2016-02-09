@@ -6,7 +6,7 @@ tags: [dajsiepoznac, pomysl]
 ---
 Do konkursu zostało dokładnie 3 tygodnie. Już blog jest prawie postawiony, dlatego robię przerwę na opisanie dwóch pomysłów z którymi chcę wystartować.
 
-### Bez nazwy 1
+## Bez nazwy 1
 
 Jakiś czas temu pomyślałem, że fajnie by było obserwować kto w sieci akceptuje niezaufane certyfikaty SSL/TLS. 
 
@@ -14,7 +14,7 @@ Aplikacja miała by nasłuchiwać na interfejsie sieciowym i przeglądać pakiet
 
 Najbardziej interesuję mnie zabawa z biblioteką [Scapy](http://www.secdev.org/projects/scapy/).
 
-### Bez nazwy 2
+## Bez nazwy 2
 
 Od kilku miesięcy zajmuję się [SIEMami](https://en.wikipedia.org/wiki/Security_information_and_event_management). Widzałem rozwiązania o otwartym kodzie oraz te zamknięte. No i chciałbym napisać swojego :)
 
