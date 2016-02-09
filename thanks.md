@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dzęki
+title: Dzięki
 permalink: /thanks/
 ---
 {{ site.text.thanks }}
