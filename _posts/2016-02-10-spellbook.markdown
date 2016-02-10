@@ -2,7 +2,7 @@
 published: false
 title: spellbook
 layout: post
-summary: Miałeś kiedyś do czynienia z drugimi poleceniami? Lub rzadkimi na tyle, ze nie ma ich w .bash_history? Spellbook rozwiązuje te problemy.
+summary: Miałeś kiedyś do czynienia z długimi poleceniami? Lub rzadkimi na tyle, ze nie ma ich w .bash_history? Spellbook rozwiązuje te problemy.
 tags:
  - spellbook
  - linux
@@ -23,7 +23,34 @@ Moja praca i przyzwyczajenia powodują, że sporo czasu spędzam w konsolach tek
 
 # spellbook
 
-bbbb
+Teraz słów kilka jak tego używać. Jest to przetłumaczona dokumentacja ze [strony projeku](https://pypi.python.org/pypi/spellbook).
+
+Zaczynamy od instalacji (dropbox jest opcjonalny):
+{% highlight bash %}
+# pip install spellbook[with_dropbox]
+Lub
+# pip install spellbook dropbox
+{% endhighlight %}
+
+Na początku musimy utworzyć pierwszą 'księgę':
+{% highlight bash %}
+$ spellbook rozne create
+{% endhighlight %}
+
+Jak chcemy coś dodać do 'księgi':
+{% highlight bash %}
+$ spellbook rozne add "tar -xvzf file.tar.gz" "extract tar.gz archive"
+{% endhighlight %}
+
+Żeby wyszukać należy zrobić tak:
+{% highlight bash %}
+$ spellbook rozne search tar
+tar -xvzf file.tar.gz
+{% endhighlight %}
+
+Ficzerów jest więcej, zainteresowanych zapraszam do pytania lub readme/helpa.
+
+Ja swoje 'księgi' powoli buduję, w przyszłości się nimi podzielę :)
 
 # realizacja
 
@@ -32,7 +59,7 @@ Cały kod jest dostępny na githubie: [Spellbook](https://github.com/donpiekarz/
 Tak jak pisałem we wstępie, wspierany jest Python 2 i 3. Oczywiście kod jest paskudny i nie zalecam tam zaglądając. Wersja bez dropboxa składała się na ok 150 linii kodu. Dodanie dropboxa spowodowało napisanie kolejnych 170 linii. I rozwiązanie kilku ciekawych problemów. Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plikach 'ksiąg'.
 
 Przykładowe scenariusze:
-- użytkownik nie ma lokalnego repozytorium 'ksiąg' - ściągamy wszystko z dropa
+- użytkownik nie ma lokalnego repozytorium 'ksiąg' - ściągamy wszystko z dropa,
 - użytkownik ma aktualnie repozytorium 'ksiąg' - nie robimy nic, ale jak sprawdzić czy jest aktualne ??
 - użytkownik nie ma aktualnego repozytorium 'ksiąg':
   - dodał coś do księgi AAAA
