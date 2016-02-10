@@ -1,6 +1,7 @@
 ---
 published: true
 title: Akt pierwszy
+summary: Krotko dlaczego wracam
 layout: post
 tags: [dajsiepoznac]
 ---
