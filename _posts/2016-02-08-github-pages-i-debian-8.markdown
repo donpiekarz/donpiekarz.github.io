@@ -1,6 +1,7 @@
 ---
 published: true
 title: Github pages i Debian 8
+summary: Uruchomienie Jekylla na Debianie nie dzialala. Co musialem zrobic, zeby wszystko odpalic lokalnie
 layout: post
 tags: debian linux jekyll instalacja
 ---
