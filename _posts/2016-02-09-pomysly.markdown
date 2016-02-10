@@ -1,6 +1,7 @@
 ---
 published: true
 title: Pomysły
+summary: Dwie zajawiki z jakimi chce wystartowac w #dajsiepoznac
 layout: post
 tags: [dajsiepoznac, pomysl]
 ---
