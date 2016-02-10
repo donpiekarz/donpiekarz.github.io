@@ -11,13 +11,13 @@ tags:
 
 Pomysl walal sie po mojej glowie juz prawie rok. W koncu udalo sie do niego usiasc i po prostu napisac. Glowna motywacja bylo to, ze po prostu potrzebuje go do zrealizowania kolejnego projektu. 
 
-Projekt jest zrealizowany w Pythonie. Dla mnie interesujace tutaj bylo sprawdzenie jak sie pisze kod dzialajacy tak samo w Python 2 jak i Python 3. Wiecej szczegolow technicznych jest w czesci zatytulowanej (realizacja)[#realizacja]. 
+Projekt jest zrealizowany w Pythonie. Dla mnie interesujace tutaj bylo sprawdzenie jak sie pisze kod dzialajacy tak samo w Python 2 jak i Python 3. Wiecej szczegolow technicznych jest w czesci zatytulowanej [realizacja](#realizacja).
 
 # problem
 
 Najlepiej problem opisuje komiks z portalu [xkcd.com](http://imgs.xkcd.com/)
 
-!(tar)[http://imgs.xkcd.com/comics/tar.png]
+![tar](http://imgs.xkcd.com/comics/tar.png)
 
 Moja praca i przyzwyczajenia powoduja, ze sporo czasu spedzam w konsolach tekstowych typu Bash. Do tego bardzo rzadko pracowalem na tej samej maszynie. W efekcie typowe CTRL + R nie znajdywalo tego co szukalem. Czesto tez nie wiedzialem jak tego szukac. 
 
@@ -37,4 +37,5 @@ Tak jak pisalem we wstepie, wspierany jest Python 2 i 3. Oczywiscie kod jest pas
   - usunol cos z ksiegi AAAA
   - dodal nowa ksiege ZZZZ
   - usunol ksiege BBBB
-  - 
+
+
