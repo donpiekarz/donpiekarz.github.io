@@ -1,16 +1,16 @@
 ---
 published: true
 title: Akt pierwszy
-summary: Krotko dlaczego wracam
+summary: Krótko dlaczego wracam
 layout: post
 tags: [dajsiepoznac]
 ---
-Od ostatniego bloga minelo sporo czasu - chwila na zadume...
+Od ostatniego bloga minęło sporo czasu - chwila na zadumę...
 
-Ten blog powraca, zeby wystartowac w konkursie #dajsiepoznac
+Ten blog powraca, żeby wystartować w konkursie [#dajsiepoznac](http://dajsiepoznac.pl/)
 
-Od dluzszego czasu chodzilo mi po glowie w jaki sposob wrocic do bloga. Z jedej strony nie chcialo mi sie zarzadzac infrastruktura. Zmeczylo mnie to juz. Z drugiej uzywanie dostepnych rozwiazan jest czesto nie takie jak bym siobie tego zyczyl. No  i z tych rozterek nie moglem sie ruszyc z miejsca. Teraz musze postawic jakiegokolwiek bloga do 1 marca. Dlatego wybralem najprostrze rozwiazanie github pages, na prawde mam nadzieje, ze to bedzie to rozwiazanie. A tego sie dowiem dopiero jak zaczne, jak zawsze.
+Od dłuższego czasu chodziło mi po głowie w jaki sposób wrócić do bloga. Z jednej strony nie chciało mi się zarządzać infrastruktura. Zmęczyło mnie to już. Z drugiej używanie dostępnych rozwiązań jest często nie takie jak bym sobie tego życzył. No i z tych rozterek nie mogłem się ruszyć z miejsca. Teraz muszę postawić jakiegokolwiek bloga do 1 marca. Dlatego wybrałem najprostsze rozwiązanie - github pages, na prawdę mam nadzieję, że to będzie to rozwiązanie. A tego się dowiem dopiero jak zacznę, jak zawsze.
 
 plany:
 
-- poprawienie wygladu bloga.
+- poprawienie wyglądu bloga.

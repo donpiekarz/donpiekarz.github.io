@@ -1,7 +1,7 @@
 ---
 published: true
 title: Github pages i Debian 8
-summary: Uruchomienie Jekylla na Debianie nie dzialala. Co musialem zrobic, zeby wszystko odpalic lokalnie
+summary: Uruchomienie Jekylla na Debianie nie działa. Co musiałem zrobić, żeby wszystko odpalić lokalnie
 layout: post
 tags: debian linux jekyll instalacja
 ---
@@ -9,7 +9,7 @@ Jak każdy pewnie się spodziewa, [instrukcja odpalenia](https://help.github.com
 
 W skrócie, trzeba zrobić tak:
 
-1. Zainstalować Ruby w wersji conajmniej 2.0.0
+1. Zainstalować Ruby w wersji co najmniej 2.0.0
 2. Zainstalować bundlera
 3. W katalogu bloga trzeba stworzyć plik Gemfile a w nim zawartość:
 {% highlight ruby %}

@@ -2,16 +2,16 @@
 published: false
 title: spellbook
 layout: post
-summary: Miales kiedys do czynienia z dlugimi poleceniami? Lub rzadkimi na tyle, ze nie ma ich w .bash_history? Spellbook rozwiazuje te problemy.
-tags: 
+summary: Miałeś kiedyś do czynienia z drugimi poleceniami? Lub rzadkimi na tyle, ze nie ma ich w .bash_history? Spellbook rozwiązuje te problemy.
+tags:
  - spellbook
  - linux
  - projekt
 ---
 
-Pomysl walal sie po mojej glowie juz prawie rok. W koncu udalo sie do niego usiasc i po prostu napisac. Glowna motywacja bylo to, ze po prostu potrzebuje go do zrealizowania kolejnego projektu. 
+Pomysł walał się po mojej głowie już prawie rok. W końcu udało się do niego usiąść i po prostu napisać. Główną motywacja było to, ze po prostu potrzebuje go do zrealizowania kolejnego projektu.
 
-Projekt jest zrealizowany w Pythonie. Dla mnie interesujace tutaj bylo sprawdzenie jak sie pisze kod dzialajacy tak samo w Python 2 jak i Python 3. Wiecej szczegolow technicznych jest w czesci zatytulowanej [realizacja](#realizacja).
+Projekt jest zrealizowany w Pythonie. Dla mnie interesujące tutaj było sprawdzenie jak się pisze kod działający tak samo w Python 2 jak i Python 3. Więcej szczegółów technicznych jest w części zatytułowanej [realizacja](#realizacja).
 
 # problem
 
@@ -19,7 +19,7 @@ Najlepiej problem opisuje komiks z portalu [xkcd.com](http://imgs.xkcd.com/)
 
 ![tar](http://imgs.xkcd.com/comics/tar.png)
 
-Moja praca i przyzwyczajenia powoduja, ze sporo czasu spedzam w konsolach tekstowych typu Bash. Do tego bardzo rzadko pracowalem na tej samej maszynie. W efekcie typowe CTRL + R nie znajdywalo tego co szukalem. Czesto tez nie wiedzialem jak tego szukac. 
+Moja praca i przyzwyczajenia powodują, że sporo czasu spędzam w konsolach tekstowych typu Bash. Do tego bardzo rzadko pracowałem na tej samej maszynie. W efekcie typowe CTRL + R nie znajdywało tego co szukałem. Często też nie wiedziałem jak tego szukać.
 
 # spellbook
 
@@ -27,15 +27,15 @@ bbbb
 
 # realizacja
 
-Caly kod jest dostepny na githubie: [Spellbook](https://github.com/donpiekarz/spellbook). 
+Cały kod jest dostępny na githubie: [Spellbook](https://github.com/donpiekarz/spellbook).
 
-Tak jak pisalem we wstepie, wspierany jest Python 2 i 3. Oczywiscie kod jest paskudny i nie zalecam tam zagladac. Wersja bez dropboxa skaladala sie na ok 150 lini kodu. Dodanie dropboxa spowodowalo napisanie kolejnych 170 linii. I rozwiazanie kilku ciekawych problemow. Najwiekszym wyzwaniem okazalo sie wymyslenie logiki laczenia zmian w plikach 'ksiag'. Przykladowe scenariusze:
-- uzytkownik nie ma lokalnego repozytorium 'ksiag' - sciagamy wszystko z dropa
-- uzytkownik ma akutalne repozytorium 'ksiag' - nie robimy nic, ale jak sprawdzic czy jest aktualne ??
-- uzytkownik nie ma aktualnego repozytorium 'ksiag':
-  - dodal cos do ksiegi AAAA
-  - usunol cos z ksiegi AAAA
-  - dodal nowa ksiege ZZZZ
-  - usunol ksiege BBBB
+Tak jak pisałem we wstępie, wspierany jest Python 2 i 3. Oczywiście kod jest paskudny i nie zalecam tam zaglądając. Wersja bez dropboxa składała się na ok 150 linii kodu. Dodanie dropboxa spowodowało napisanie kolejnych 170 linii. I rozwiązanie kilku ciekawych problemów. Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plikach 'ksiąg'.
 
-
+Przykładowe scenariusze:
+- użytkownik nie ma lokalnego repozytorium 'ksiąg' - ściągamy wszystko z dropa
+- użytkownik ma aktualnie repozytorium 'ksiąg' - nie robimy nic, ale jak sprawdzić czy jest aktualne ??
+- użytkownik nie ma aktualnego repozytorium 'ksiąg':
+  - dodał coś do księgi AAAA
+  - usunl coś z księgi AAAA
+  - dodał nowa księge ZZZZ
+  - usunął księgę BBBB
