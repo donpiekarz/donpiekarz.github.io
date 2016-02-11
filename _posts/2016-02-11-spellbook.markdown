@@ -105,6 +105,7 @@ Obawiam się jak to się będzie ze wsparciem różnych kodowań. Nie sprawdzał
 Z mojej strony projekt wchodzi w stan utrzymania. Mam jeszcze ze dwa pomysły co by mi się przydało, ale dużych zmian się nie spodziewam.
 
 Całość kodowana i testowana z:
+
 - Kali Linux 2,
 - PyCharm Pro 5,
 - Python 3.4.2,
