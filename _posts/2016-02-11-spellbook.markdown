@@ -76,7 +76,6 @@ Założenia:
 
 Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plikach 'ksiąg'. Przykładowe scenariusze:
 
-
 - użytkownik nie ma lokalnego repozytorium 'ksiąg',
 - użytkownik ma aktualnie repozytorium 'ksiąg',
 - użytkownik nie ma aktualnego repozytorium 'ksiąg':
@@ -84,9 +83,9 @@ Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plika
   - usunl coś z księgi AAAA,
   - dodał nowa księge ZZZZ,
   - usunął księgę BBBB.
-
   
 Przemyślenie tego problemu zajeło trochę czasu, ostatecznie zdecydowałem się na:
+
 - Jeśli nie ma pliku lokalnego, a jest zdalny to go pobieram.
 - Jeśli jest plik lokalny w tej samej wersji co zdalny to go wrzucam do dropa - nie jest to zbyt optymalne rozwiazanie. Taki stan oznacza, że plik lokalny wywodzi się z tego samego miejsca co na dropie. Jeśli był zmieniony to zmiany zostaną zaakceptowane bez konfliktu. Jeśli nie ma zmian to dropbox nic nie zmieni. Więc kosztem transferu (kilka KB) i czasu (kilka sekund) rozwiązuję normalny przypadek użycia. 
 - Jeśli plik lokalny jest w innej wersji niż zdalny to następuje połączenie obu plików. Zakładam, że to plik zdalny będzie bardziej akutalny, więc do pliku lokalnego dodaje brakujące linie. Kolejnym założeniem jest, że żadko ktoś edytuje lub usuwa wpisy w spellbooku. Więc lepiej coś dodać za dużo i użytkownik będzie musiał usunąć znowu niż stracić nawet jedno zaklęcie.
