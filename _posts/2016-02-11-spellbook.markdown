@@ -76,6 +76,7 @@ Założenia:
 
 Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plikach 'ksiąg'. Przykładowe scenariusze:
 
+
 - użytkownik nie ma lokalnego repozytorium 'ksiąg',
 - użytkownik ma aktualnie repozytorium 'ksiąg',
 - użytkownik nie ma aktualnego repozytorium 'ksiąg':
@@ -83,6 +84,7 @@ Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plika
   - usunl coś z księgi AAAA,
   - dodał nowa księge ZZZZ,
   - usunął księgę BBBB.
+
   
 Przemyślenie tego problemu zajeło trochę czasu, ostatecznie zdecydowałem się na:
 - Jeśli nie ma pliku lokalnego, a jest zdalny to go pobieram.
