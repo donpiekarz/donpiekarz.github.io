@@ -11,6 +11,7 @@ tags:
 
 
 
+
 Pomysł walał się po mojej głowie już prawie rok. W końcu udało się do niego usiąść i po prostu napisać. Główną motywacja było to, ze po prostu potrzebuje go do zrealizowania kolejnego projektu.
 
 Projekt jest zrealizowany w Pythonie. Dla mnie interesujące tutaj było sprawdzenie jak się pisze kod działający tak samo w Python 2 jak i Python 3. Więcej szczegółów technicznych jest w części zatytułowanej [realizacja](#realizacja).
@@ -21,7 +22,7 @@ Najlepiej problem opisuje komiks z portalu [xkcd.com](http://imgs.xkcd.com/)
 
 ![tar](http://imgs.xkcd.com/comics/tar.png)
 
-Moja praca i przyzwyczajenia powodują, że sporo czasu spędzam w konsolach tekstowych typu Bash. Do tego bardzo żadko pracowałem na tej samej maszynie. W efekcie typowe CTRL + R nie znajdywało tego co szukałem. Często też nie wiedziałem jak tego szukać.
+Moja praca i przyzwyczajenia powodują, że sporo czasu spędzam w konsolach tekstowych typu Bash. Do tego bardzo rzadko pracowałem na tej samej maszynie. W efekcie typowe CTRL + R nie znajdywało tego co szukałem. Często też nie wiedziałem jak tego szukać.
 
 # spellbook
 
@@ -89,7 +90,7 @@ Przemyślenie tego problemu zajeło trochę czasu, ostatecznie zdecydowałem si�
 
 - Jeśli nie ma pliku lokalnego, a jest zdalny to go pobieram.
 - Jeśli jest plik lokalny w tej samej wersji co zdalny to go wrzucam do dropa - nie jest to zbyt optymalne rozwiazanie. Taki stan oznacza, że plik lokalny wywodzi się z tego samego miejsca co na dropie. Jeśli był zmieniony to zmiany zostaną zaakceptowane bez konfliktu. Jeśli nie ma zmian to dropbox nic nie zmieni. Więc kosztem transferu (kilka KB) i czasu (kilka sekund) rozwiązuję normalny przypadek użycia. 
-- Jeśli plik lokalny jest w innej wersji niż zdalny to następuje połączenie obu plików. Zakładam, że to plik zdalny będzie bardziej akutalny, więc do pliku lokalnego dodaje brakujące linie. Kolejnym założeniem jest, że żadko ktoś edytuje lub usuwa wpisy w spellbooku. Więc lepiej coś dodać za dużo i użytkownik będzie musiał usunąć znowu niż stracić nawet jedno zaklęcie.
+- Jeśli plik lokalny jest w innej wersji niż zdalny to następuje połączenie obu plików. Zakładam, że to plik zdalny będzie bardziej akutalny, więc do pliku lokalnego dodaje brakujące linie. Kolejnym założeniem jest, że rzadko ktoś edytuje lub usuwa wpisy w spellbooku. Więc lepiej coś dodać za dużo i użytkownik będzie musiał usunąć znowu niż stracić nawet jedno zaklęcie.
 - Jeśli 'księga' jest usunięta zdalnie to zostanie ona też usunięta lokalnie - jak odróżnić czy plik jest nowy czy usunięty zdalnie? Nowy plik nie ma wpisu w moim repozytorium, usunięty ma.
 
 Żeby to wszystko zrealizować musiałem dokodować kilka funkcji. Zostałem zaskoczony przez złożoność problemu, dlatego trochę posypała mi się architektura. I teraz kod potrzebuje refactoringu :)
