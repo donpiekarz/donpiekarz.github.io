@@ -82,8 +82,8 @@ Największym wyzwaniem okazało się wymyślenie logiki łączenia zmian w plika
 - użytkownik ma aktualnie repozytorium 'ksiąg',
 - użytkownik nie ma aktualnego repozytorium 'ksiąg':
   - dodał coś do księgi AAAA,
-  - usunąl coś z księgi AAAA,
-  - dodał nowa księge ZZZZ,
+  - usunął coś z księgi AAAA,
+  - dodał nowa księgę ZZZZ,
   - usunął księgę BBBB.
   
 Przemyślenie tego problemu zajeło trochę czasu, ostatecznie zdecydowałem się na:
