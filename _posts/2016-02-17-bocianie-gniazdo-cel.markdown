@@ -3,7 +3,6 @@ published: true
 layout: post
 title: Bocianie Gniazdo – cel
 summary: dlaczego chcę zrealizować pomysł Bocianie Gniazdo
-date: 2016-02-17 18:00:01
 tags:
 - dajsiepoznac
 - python
