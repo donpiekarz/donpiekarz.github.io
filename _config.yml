@@ -8,6 +8,7 @@ description: "tylko sny odró&#380;niaj&#261; nas od maszyn"
 baseurl:     ""
 url:         "http://donpiekarz.pl"
 date_format: "%Y-%m-%d"
+timezone: Europe/Warsaw
 
 # Google services
 google_analytics: UA-73550761-1
