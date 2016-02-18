@@ -1,5 +1,6 @@
 excerpt_separator: ""
 highlighter: rouge
+
 # Site settings
 title:       Cierpienia M&#322;odego Kodera
 email:       me@donpiekarz.pl
@@ -97,8 +98,7 @@ text:
 
 # Build settings
 markdown: kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
+extensions: ['smart', 'tables', 'with_toc_data', 'fenced_code_blocks']
 permalink:    pretty
 paginate:     4
 sass:
