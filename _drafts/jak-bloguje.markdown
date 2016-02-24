@@ -6,6 +6,16 @@ summary: słów kilka w jaki sposób ogarniam bloga
 ---
 
 
+Tak jak pisalem w [Akcie pierwszym]({% post_url ... %}) zdecydowalem sie na github pages i jekylla. I teraz chcialbym przedstawic jak to u mnie wyglada caly proces.
+
+Kiedys juz blogowalem z wykorzystaniem [django-blog-zinnia](https://github.com/Fantomas42/django-blog-zinnia), wtedy wszystko pisalem w przegladarce i mialem mozliwosc podgladu co z tego wyszlo. 
+
+
+
+# Pomysl
+
+Na samym poczatku mam najczesciej kilka losowych mysli w glownie na dany temat. Wiec je zapisuje. A potem dorabiam brakujace informacje tak, aby historia byla spojna. 
+
 # Edytor
 
 Na samym początku chciałem edytora, który będzie w stanie mi wyświetlać sformatowany tekst. Jak znalazłem kilka, które to robiły w sposób średni, to zdecydowałem się, że dla mnie najważniejsze jest sprawdzanie pisowni. Żeby dobrze sformatować tekst i tak potrzebuję jekylla lokalnie i kilka prób. A bez korekty pisowni nie mogę spokojnie pisać.
