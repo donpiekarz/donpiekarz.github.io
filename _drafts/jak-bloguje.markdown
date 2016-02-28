@@ -6,7 +6,7 @@ summary: słów kilka w jaki sposób ogarniam bloga
 ---
 
 
-Tak jak pisalem w [Akcie pierwszym]({% post_url ... %}) zdecydowalem sie na github pages i jekylla. I teraz chcialbym przedstawic jak to u mnie wyglada caly proces.
+Tak jak pisalem w [Akcie pierwszym]({% post_url 2016-02-03-akt-pierwszy %}) zdecydowalem sie na github pages i jekylla. I teraz chcialbym przedstawic jak to u mnie wyglada caly proces.
 
 Kiedys juz blogowalem z wykorzystaniem [django-blog-zinnia](https://github.com/Fantomas42/django-blog-zinnia), wtedy wszystko pisalem w przegladarce i mialem mozliwosc podgladu co z tego wyszlo. 
 
