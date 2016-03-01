@@ -5,17 +5,16 @@ permalink: /about/
 tags: about
 ---
 
-![ja](/images/me.jpeg)
-
+<img src="{{ site.baseurl }}/images/me.jpeg" alt="ja" class="avatar" />
 
 Koder.
 
 Bezpiecznik.
 
-Don Piekarz.
+DonPiekarz.
 
 
-Śledz na [Twitterze](https://twitter.com/donpiekarz)
+Śledz na [Twitterze](https://twitter.com/donpiekarz)!
 
 
 
