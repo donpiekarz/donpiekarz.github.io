@@ -28,4 +28,4 @@ Jeszcze nie zdecydowałem się na jakąkolwiek. Która wam się podoba?
 
 Spodziewałem się, że Bocianie Gniazdo też będzie wspierało Pythona 2 i 3, a tak niestety nie będzie. Okazało się, że [scapy](http://www.secdev.org/projects/scapy/) wspiera tylko Pythona 2. Musiałem z tego powodu odkręcać połowę ustawień projektu - stąd tak długi stream :)
 
-![dajsiepoznac2016](https://dl.dropboxusercontent.com/u/7939953/blog/dsp/bloguj.png)
+<img src="https://dl.dropboxusercontent.com/u/7939953/blog/dsp/bloguj.png" alt="dajsiepoznac2016" style="display: block; margin: 0 auto;" />
