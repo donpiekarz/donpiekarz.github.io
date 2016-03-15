@@ -90,7 +90,9 @@ setup(
 
 I teraz krok po kroku opiszę dane bloki, ciekawsze są wytłuszczone
 
-##Linie:
+
+## Linie:
+
 
 1 - ustawienie środowiska uruchomieniowego
 
@@ -98,7 +100,7 @@ I teraz krok po kroku opiszę dane bloki, ciekawsze są wytłuszczone
 
 **5** - importowanie lepszej funkcji setup, bardzo **ważne**!
 
-7 - importowanie numeru wersji, zalecam umieszczać numer tam gdzie nie ma kodu. Np tu jest w pliku \_\_init\_\_.py.
+7 - importowanie numeru wersji, zalecam umieszczać numer tam gdzie nie ma kodu, np. w pliku \_\_init\_\_.py.
 
 **9 - 13** - dynamiczne wczytywanie długiego opisu z README
 
