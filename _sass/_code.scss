@@ -14,17 +14,17 @@ code {
 }
 
 pre {
-  padding: 1.125em;
+  padding: 0.125em;
   line-height: 1.11;
   overflow-x: scroll;
   margin-bottom: 0.88em;
   background-color: $pre-background-color;
 }
 
-.highlight .p {
+/*.highlight .p {
   font-size: 1.125rem;
   line-height: 1;
-}
+}*/
 
 pre {
     counter-reset: line-numbering;

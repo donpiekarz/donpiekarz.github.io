@@ -7,7 +7,7 @@ table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1.5;
-  font-size: 1.125rem;
+  font-size: 0.75rem;
   // Cells
   > thead,
   > tbody,
@@ -15,10 +15,10 @@ table {
     > tr {
       > th,
       > td {
-        padding: 12px;
+        padding: 0.5em;
         line-height: 1.2;
         vertical-align: top;
-        border-top: 1px solid #333;
+        /*border-top: 1px solid #333;*/
       }
     }
   }
