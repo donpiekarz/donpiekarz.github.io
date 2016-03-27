@@ -1,4 +1,16 @@
 <footer class="center">
+
+  <script src="/js/cookiechoices.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(event) {
+    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+    (window.cookieOptions && cookieOptions.msg) || 'Do analizy ruchu ta strona wykorzystuje ciasteczka. Informacje o tym, jak z niej korzystasz są udostępniane Google. Przebywając tutaj akceptujesz wykorzystanie ciasteczek.',
+    (window.cookieOptions && cookieOptions.close) || 'Potwierdzam',
+    (window.cookieOptions && cookieOptions.learn) || 'Więcej',
+    (window.cookieOptions && cookieOptions.link) || 'https://www.google.com/policies/technologies/cookies/');
+    });
+  </script>
+  
   <div class="fb-page" data-href="https://www.facebook.com/pepiniera.net" data-width="500" data-height="220" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"></div></div>
   <div class="measure">
     <small>
