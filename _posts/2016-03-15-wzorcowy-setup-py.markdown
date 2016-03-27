@@ -47,7 +47,7 @@ setup(
     download_url='https://github.com/donpiekarz/spellbook/tarball/' + VERSION,
     license='BSD',
     author='Bartlomiej Piekarski',
-    author_email='bartlomiej.piekarski@gmail.com',
+    author_email='poczta@example.org',
     description='store and search command lines',
     long_description=long_description,
     entry_points={
