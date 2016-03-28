@@ -12,8 +12,9 @@ date_format: "%Y-%m-%d"
 timezone: "Europe/Warsaw"
 
 # Google services
-google_analytics: UA-73550761-1
+google_analytics: 
 google_verification:
+google_tag_manager: GTM-MN58BS
 
 # Optional features
 animated:             false
