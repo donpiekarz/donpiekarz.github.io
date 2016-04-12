@@ -10,13 +10,11 @@ Tak jak pisalem w [Akcie pierwszym]({% post_url 2016-02-03-akt-pierwszy %}) zdec
 
 Kiedys juz blogowalem z wykorzystaniem [django-blog-zinnia](https://github.com/Fantomas42/django-blog-zinnia), wtedy wszystko pisalem w przegladarce i mialem mozliwosc podgladu co z tego wyszlo. 
 
+# Szkic
 
+Wszystko zaczyna się od pomysłu. Na samym poczatku mam kilka losowych mysli w glownie na dany temat. Wiec je zapisuje. A potem dorabiam brakujace informacje tak, aby historia byla spojna. 
 
-# Pomysl
-
-Na samym poczatku mam najczesciej kilka losowych mysli w glownie na dany temat. Wiec je zapisuje. A potem dorabiam brakujace informacje tak, aby historia byla spojna. 
-
-# Edytor
+# Dlaczego Emacs?
 
 Na samym początku chciałem edytora, który będzie w stanie mi wyświetlać sformatowany tekst. Jak znalazłem kilka, które to robiły w sposób średni, to zdecydowałem się, że dla mnie najważniejsze jest sprawdzanie pisowni. Żeby dobrze sformatować tekst i tak potrzebuję jekylla lokalnie i kilka prób. A bez korekty pisowni nie mogę spokojnie pisać.
 
@@ -31,3 +29,4 @@ Ostatecznie spróbowałem emacsa i on robi wystarczająco, edytuje i sprawdza pi
 Pomogły mi te strony:
 - http://too-much-is-not-enough.blogspot.com/2012/12/emacs-w-odcinkach-4-list-do-cioci.html
 - http://www.mblog.boo.pl/artykul-21-emacs-sprawdzanie-pisowni.html
+
