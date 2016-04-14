@@ -7,7 +7,18 @@ tags:
 
 ---
 
-Pewnego razu, jedząc rano śniadanie pomyślałem sobie, że muszę posprzątać jak wrócę z pracy. Następną myślą było, że bezpieczeństwo (w firmie/domu) jest jak sprzątanie.
+Pewnego razu, jedząc rano śniadanie pomyślałem sobie, że muszę posprzątać jak wrócę z pracy. Następną myślą było, że z bezpieczeństwem (w firmie/domu) jest podobnie.
+
+Dom/mieszkanie to np bezpieczeństwo w organizacji. 
+
+Nieczystościami w takiej organizacja mogą być:
+- odpadki po wykonywanej pracy, np konta oraz maszyny testowe,
+- zabrudzone narzędzia, 
+- zawalone dyski danymi tymczasowymi
+- nieakutalne oprogramowanie
+- nieuzywane konta oraz maszyny
+
+Od czasu do czasu trzeba tam posprzątać, tzn pozbierać nieużywane przedmioty, zająć się odpadami dnia codziennego. 
 
 I tak jest dom, w którym ludzie śpią i firma, w której pracują. 
 
